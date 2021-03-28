@@ -4,18 +4,86 @@
 }
 .topnav p {
   float: left;
+  margin-right: 50%;
   color: #051677;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.TopRight {
+  margin-top: 2.5%;
 }
 .topnav li {
-  float: right;
+  float: left;
   color: #051677;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+.myAvatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.introduction {
+  text-align: center;
+  color: #25262b;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.myStory {
+  display: grid;
+  margin: 4.5%;
+  gap: 0%;
+}
+#Microsoft {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+}
+#Microsoft img,
+#TA img,
+#clubs div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+#TA {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+#clubs {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* .myStory div {
+  width: auto;
+  border: 1px solid #051677;
+} */
+#gwc,
+#nsbe {
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
