@@ -1,0 +1,21 @@
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.topnav p {
+  float: left;
+  color: #051677;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav li {
+  float: right;
+  color: #051677;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  list-style: none;
+}
