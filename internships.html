@@ -3,10 +3,11 @@
     <title>
         Njolima.co
     </title>
-    <link rel="stylesheet" href="styles/home.css"/>
+    <link rel="stylesheet" href="styles/home.css" />
 </header>
+
 <body>
-    <div class="topnav"> 
+    <div class="topnav">
         <p><a href="index.html">Concepta Njolima</a></p>
         <ul class="TopRight">
             <li><a href="index.html">Home</a></li>
@@ -15,9 +16,47 @@
         </ul>
     </div>
     <div class="tnt">
-        <p>My TNT experienec</p>
+        <img src="TNT-logo.png" height="400" , width="400" style="align-self: center;">
+        <h2>My TNT experience</h2>
+        <p>The TNT program is a seven-week innovation academy that enables first and second year college
+            students experience the product lifecycle with involvement in both the PM and Engineering
+            curriculum.
+            Unlike previous years where the major technology learned was Swift for iOS
+            application development,in 2020 was a fully remote program that taught web development with ReactJS and
+            Typescript
+            in addition to a Project management curriculum.
+            Although I missed the in-person experince due to the Covid-19 pandemic, I learned so much from the
+            internship! :)
+        </p>
+        <h4>Project overview</h4>
+        <p>
+            Developed a web application to provide health care information to young adults in a team of five interns
+            (shout out to the Bill Gates Fun Club! Rachel, Ian, Carlos,Denis)
+
+        <h4>My contribution</h4>
+        I implemented the budget filtering feature in our application that enabled a user filter doctors based on their
+        cost and render the information of doctors whose
+        average cost of services is less than or equal to the value a user inputs using the budget slider.
+
+        To implement this feature, I used React redux which enabled global state management of a list of
+        doctor objects in our React application’s store. Each doctor is an object of the doctor class that
+        takes in information like name, specialty, location, services offered, years in practice, and others.
+
+        To enable real-time update of a filtered doctor list which is also a list of doctors objects, I created
+        React redux method to filter and append all doctors whose average cost is less than or equal to
+        the budget slider value to a filtered list also stored in our redux store. Since this filtered list is
+        stored in the Redux store, then the list was globally accessible and enabled real time update of
+        doctor information in our application as the user moved the budget slider.
+
+        </p>
+        <h4> Tools used</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1024px-React.svg.png" height="200"
+            width="200">
+        <img height="200" width="200"
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--6McQQU7i--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/j4hwcf7lntmqyha7ras5.png">
+        <img height="200" width="200" style="height: 100;width: 100;"
+            src="https://miro.medium.com/max/910/1*Wjxx83j-qyiNvFBy1yOA1w.jpeg">
+
     </div>
-    <div class="explore">
-        <p>I will be an Explore Intern for Summer 2021</p>
-    </div>
+
 </body>
