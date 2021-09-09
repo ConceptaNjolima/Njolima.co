@@ -1,47 +1,62 @@
 <!DOCTYPE html>
-<header>
+
+<head>
     <title>
         Njolima.co
     </title>
     <link rel="stylesheet" href="styles/home.css" />
-</header>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
-    <div class="topnav">
-        <p><a href="index.html">Concepta Njolima</a></p>
-        <ul class="TopRight">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
-    </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/home.css" />
+</head>
+
+<body class="text-monospace">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/NjolimaAvatar.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Concepta Njolima
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="padding-left: 50%;">
+            <div class="navbar-nav text-monospace font-weight-light ">
+                <a class="nav-item nav-link" href="index.html">Home </a>
+                <a class="nav-item nav-link" href="projects.html">Projects</a>
+                <a class="nav-item nav-link" href="resume.html">Resume</a>
+            </div>
+    </nav>
 
     <img src="images/NjolimaAvatar.png" alt="Concepta's avatar" class="myAvatar" />
     <div class="introduction">
-        <span>Hi!</span>
-        <span>My name is Concepta Njolima</span>
-        <p>I am a sophomore at Berea College majoring in Computer Science and Mathematics</p>
-        <p>In my free time, I love chrocheting, hiking, playing lawn tennis, and trying out new food recipes</p>
+        <span class="text-monospace">Hi!</span>
+        <span class="text-monospace">My name is Concepta Njolima</span>
+        <p class="text-monospace">I am a Junior at Berea College double-majoring in Computer Science and Mathematics</p>
+        <p class="text-monospace">In my free time, I love chrocheting, hiking, playing lawn tennis, and trying out new
+            food recipes</p>
     </div>
 
     <div class="myStory">
         <div id="Microsoft">
             <a href="TA.html"></a><img src="images/microsoft-logo.png" /></a>
-            <a href="internships.html">
-                <p>Explore Intern</p>
-                <p>New Technologist Intern</p>
-            </a>
+            <div class="btn btn-link" onclick="location.href='internships.html'"> Explore Intern </div>
+            <br>
+            <div class="btn btn-link" onclick="location.href='internships.html'">New Technologist Intern</div>
 
 
         </div>
         <div id="TA">
             <a href="TA.html"></a><img src="images/bcLogo.png" href="" /></a>
-            <a href="TA-Lead.html">
-                <p>Computer Science TA Lead</p>
-            </a>
-            <a href="TA.html">
-                <p>Computer Science Teaching Assistant</p>
-            </a>
+            <div class="btn btn-link" onclick="location.href='TA-Lead.html'">
+                Computer Science TA Lead
+            </div>
+            <br>
+            <div class="btn btn-link" onclick="location.href='TA.html'">
+                Computer Science Teaching Assistant
+            </div>
 
         </div>
         <!-- <div id="clubs">
@@ -51,8 +66,17 @@
             <p>My Clubs</p>
         </div> -->
     </div>
-
+    <footer style="margin-left:35%; margin-top:10%;">
+        Made with a :) by Concepta Njolima
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
-<footer>
-    Made with a :) by Concepta Njolima
-</footer>

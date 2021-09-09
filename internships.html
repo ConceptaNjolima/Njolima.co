@@ -4,19 +4,65 @@
         Njolima.co
     </title>
     <link rel="stylesheet" href="styles/home.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/home.css" />
 </header>
 
-<body>
-    <div class="topnav">
-        <p><a href="index.html">Concepta Njolima</a></p>
-        <ul class="TopRight">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
+<body style="margin:1%">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/NjolimaAvatar.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Concepta Njolima
+        </a>
+        <div class="collapse navbar-collapse float-right" id="navbarNavAltMarkup" style="padding-left: 50%;">
+            <div class="navbar-nav text-monospace font-weight-light ">
+                <a class="nav-item nav-link" href="index.html">Home </a>
+                <a class="nav-item nav-link" href="projects.html">Projects</a>
+                <a class="nav-item nav-link" href="resume.html">Resume</a>
+            </div>
+    </nav>
+    <div class="card" style="padding:5%">
+        <h2>My Explore internship experience</h2>
+        <!-- <img src="Excel logo.png"> -->
+        <p>During the summer of 2021, I was an Explore intern with Microsoft Excel. The Explore internship was a 12-week
+            internship
+            where a pod of three interns(shout out to my amazing teammates Melissa and Yan!) worked through the product
+            management and software
+            development phases of developing a new Excel feature. The intern feature crew is supported by one
+            Engineering mentor, two Project Management mentors, and one Engineering manager who was the project
+            supervisor. My internship project was to offer a solution for customers to open Excel workbooks from Excel
+            Desktop in Excel Online.
+        </p>
+        <p>During my Explore internship, I:</p>
+        <ul>
+            <li>Interviewed 18 customers to understand the customer pain points</li>
+            <li>Developed a product specification and organized a review session</li>
+            <li> Implemented the back-end of the project like getting the sharepoint Url and opening the link in a web
+                browser</li>
+            <li>Participated in Microsoft Excel hackathon</li>
+            <li> Joined a team of four full-time employes for a Hack day where we exploited a sample vulnerabilities
+            </li>
+            <li>Attended fun intern events</li>
+
         </ul>
+        <h4 style="margin-left:40%">Tools used</h4>
+        <br>
+        <div class="card-group" style="margin-left:25%">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" height="200" width="200"
+                style="margin-right: 5%;">
+            <img src="https://superkinhluan.gallerycdn.vsassets.io/extensions/superkinhluan/source-depot/0.0.2/1510937472461/Microsoft.VisualStudio.Services.Icons.Default"
+                height="200" width="200">
+        </div>
     </div>
-    <div class="tnt">
-        <img src="TNT-logo.png" height="400" , width="400" style="align-self: center;">
+    <br>
+    <div class="card" style="padding:5%" id=tnt>
+        <!-- <img src="TNT-logo.png" height="400" , width="400" style="align-self: center;"> -->
         <h2>My TNT experience</h2>
         <p>The TNT program is a seven-week innovation academy that enables first and second year college
             students experience the product lifecycle with involvement in both the PM and Engineering
@@ -49,14 +95,27 @@
         doctor information in our application as the user moved the budget slider.
 
         </p>
-        <h4> Tools used</h4>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1024px-React.svg.png" height="200"
-            width="200">
-        <img height="200" width="200"
-            src="https://res.cloudinary.com/practicaldev/image/fetch/s--6McQQU7i--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/j4hwcf7lntmqyha7ras5.png">
-        <img height="200" width="200" style="height: 100;width: 100;"
-            src="https://miro.medium.com/max/910/1*Wjxx83j-qyiNvFBy1yOA1w.jpeg">
-
+        <h4 style="margin-left:40%">Tools used</h4>
+        <br>
+        <div class="card-group justify-content-between" style="margin-left:0%">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1024px-React.svg.png"
+                height="200" width="200">
+            <img height="200" width="200"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--6McQQU7i--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/j4hwcf7lntmqyha7ras5.png">
+            <img height="200" width="200" style="height: 100;width: 100;"
+                src="https://miro.medium.com/max/910/1*Wjxx83j-qyiNvFBy1yOA1w.jpeg">
+        </div>
     </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
