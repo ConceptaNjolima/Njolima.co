@@ -2,7 +2,7 @@
   background-color: rgb(255, 255, 255);
   overflow: hidden;
 }
-.topnav p {
+/* .navbar-brand{
   float: left;
   margin-right: 50%;
   color: #051677;
@@ -10,19 +10,21 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 22px;
+  padding-top: 1%;
+  margin-left: 3%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+} */
 .TopRight {
   margin-top: 2.5%;
 }
-.topnav li {
+#collapsibleNavbar>ul>li {
   float: left;
   color: #051677;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
   list-style: none;
+  padding-right:10%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 /* Change the color of links on hover */
@@ -36,16 +38,19 @@
   background-color: #4caf50;
   color: white;
 }
-.myAvatar {
+.myfaceshot {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  height: 100px;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 50%;
+  height: 50%;
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  /* border: 5px solid rgb(238, 237, 237); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.introduction {
+.introduction { 
+  margin-top: 5%; 
   text-align: center;
   color: #25262b;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -60,7 +65,7 @@
   text-align: center;
 }
 #Microsoft img,
-#TA img,
+#TA img, #AfroFem img,
 #clubs div {
   display: block;
   margin-left: auto;
@@ -68,7 +73,7 @@
   width: 150px;
   height: 150px;
 }
-#TA {
+#TA,#AfroFem {
   grid-column-start: 2;
   grid-column-end: 3;
   text-align: center;
